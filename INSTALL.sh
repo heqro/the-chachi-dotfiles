@@ -5,32 +5,31 @@
     echo "2 - Copying over fonts (system-wide)..."
     sudo \cp -r fonts/fira-sans /usr/share/fonts
     sudo \cp -r fonts/fira-sans-code /usr/share/fonts
-    echo "3 - Copying over color schemes, GTK themes and aurorae"
+    echo "3 - Copying over color schemes, GTK themes and aurorae..."
     \cp -r themes/color-profiles ~/.local/share/color-schemes
     \cp -r themes/gtk-whitesur-themes ~/.themes
     mkdir ~/.local/share/aurorae
-    mkdir ~/.local/share/aurorae/themes
-    \cp -r themes/aurorae ~/.local/share/aurorae/themes
+    \cp -r themes/aurorae ~/.local/share/aurorae
 
-    echo "4 - Copying .desktop files as well as icons"
+    echo "4 - Copying .desktop files as well as icons..."
     sudo \cp -r icons/* /usr/share/pixmaps
     mkdir ~/.local/share/heqro-kde-scripting
     \cp -r activity-changing ~/.local/share/heqro-kde-scripting
     chmod -R +x ~/.local/share/heqro-kde-scripting/activity-changing
     
-    echo "5 - Copying icons pack"
+    echo "5 - Copying icons pack..."
     mkdir ~/.local/share/icons
     
     tar -xf themes/icon-pack/Tela-circle-blue.tar.xz -C ~/.local/share/icons
 
     tar -xf themes/icon-pack/Papirus-icon-theme.tar.xz -C ~/.local/share/icons
     
-    echo "6 - Copying over cursor theme"
+    echo "6 - Copying over cursor theme..."
     mkdir ~/.icons
     
     tar -xf themes/cursor-themes/volantes_light_cursors.tar.gz -C ~/.icons
 
-    echo "7 - Activities set-up"
+    echo "7 - Activities set-up..."
 
     qdbus org.kde.ActivityManager /ActivityManager/Activities AddActivity "A1-Chill" 
     
@@ -50,4 +49,15 @@
     
     \cp -r theme-changing-scripts ~/.local/share/heqro-kde-scripting
     
+    echo "9 - Exporting plasmoids"
+    mkdir ~/.local/share/plasma
+    mkdir ~/.local/share/plasma/plasmoids
+    \cp -r themes/plasmoids ~/.local/share/plasma/plasmoids
     
+    tar -xf themes/plasmoids/com.github.zren.tiledmenu.tar.gz -C ~/.local/share/plasma/plasmoids
+    
+    tar -xf themes/plasmoids/org.kde.plasma.eventcalendar.tar.gz -C ~/.local/share/plasma/plasmoids
+    
+    echo "10 - Exporting look-and-feel"
+    mkdir ~/.local/share/plasma/look-and-feel
+    \cp -r themes/look-and-feel ~/.local/share/plasma/
