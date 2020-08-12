@@ -13,20 +13,18 @@
     \cp -r themes/aurorae ~/.local/share/aurorae/themes
 
     echo "4 - Copying .desktop files as well as icons"
-    sudo cp icons/heqro-sun.svg /usr/share/pixmaps
-    sudo cp icons/heqro-night.svg /usr/share/pixmaps
-    sudo cp icons/heqro-headset.png /usr/share/pixmaps
-    sudo cp icons/heqro-joystick.png /usr/share/pixmaps
+    sudo \cp -r icons/* /usr/share/pixmaps
     mkdir ~/.local/share/heqro-kde-scripting
-    \cp -r icons ~/.local/share/heqro-kde-scripting
-    \cp -r activity-changing/executables-with-script ~/.local/share/heqro-kde-scripting
-    chmod -R +x ~/.local/share/heqro-kde-scripting/executables-with-script
+    \cp -r activity-changing ~/.local/share/heqro-kde-scripting
+    chmod -R +x ~/.local/share/heqro-kde-scripting/activity-changing
     
     echo "5 - Copying icons pack"
     mkdir ~/.local/share/icons
     
-    tar -xf themes/icon-pack/03-Tela-circle-blue.tar.xz -C ~/.local/share/icons
+    tar -xf themes/icon-pack/Tela-circle-blue.tar.xz -C ~/.local/share/icons
 
+    tar -xf themes/icon-pack/Papirus-icon-theme.tar.xz -C ~/.local/share/icons
+    
     echo "6 - Copying over cursor theme"
     mkdir ~/.icons
     

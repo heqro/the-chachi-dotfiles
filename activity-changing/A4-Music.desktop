@@ -1,0 +1,22 @@
+[Desktop Entry]
+Comment[an_ES]=
+Comment=
+Comment[en_US]=
+Exec=~/.local/share/heqro-kde-scripting/activity-changing/ChangeActivity.sh 3
+GenericName[an_ES]=
+GenericName=
+GenericName[en_US]=
+Icon=heqro-headset.png
+MimeType=
+Name[an_ES]=A4-Music
+Name=A4-Music
+Name[en_US]=A4-Music
+Path=
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=
