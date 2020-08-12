@@ -1,0 +1,22 @@
+[Desktop Entry]
+Comment[an_ES]=
+Comment=
+Comment[en_US]=
+Exec=~/.local/share/heqro-kde-scripting/executables-with-script/ChangeActivity.sh 4
+GenericName[an_ES]=
+GenericName=
+GenericName[en_US]=
+Icon=heqro-joystick.png
+MimeType=
+Name[an_ES]=A5-Gaming
+Name=A5-Gaming
+Name[en_US]=A5-Gaming
+Path=
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=

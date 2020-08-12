@@ -1,0 +1,22 @@
+[Desktop Entry]
+Comment[an_ES]=
+Comment=
+Comment[en_US]=
+Exec=~/.local/share/heqro-kde-scripting/theme-changing-scripts/ChangeTheme.sh "Day"
+GenericName[an_ES]=
+GenericName=
+GenericName[en_US]=
+Icon=heqro-sun.svg
+MimeType=
+Name[an_ES]=ChangeToDayTheme
+Name=ChangeToDayTheme
+Name[en_US]=Asignatura2
+Path=
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

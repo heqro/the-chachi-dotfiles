@@ -1,0 +1,22 @@
+[Desktop Entry]
+Comment[an_ES]=
+Comment=
+Comment[en_US]=
+Exec=~/.local/share/heqro-kde-scripting/theme-changing-scripts/ChangeTheme.sh "Night"
+GenericName[an_ES]=
+GenericName=
+GenericName[en_US]=
+Icon=heqro-night.svg
+MimeType=
+Name[an_ES]=ChangeToNightTheme
+Name=ChangeToNightTheme
+Name[en_US]=Asignatura2
+Path=
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

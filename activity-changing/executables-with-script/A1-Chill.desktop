@@ -1,0 +1,22 @@
+[Desktop Entry]
+Comment[an_ES]=
+Comment=
+Comment[en_US]=
+Exec=~/.local/share/heqro-kde-scripting/executables-with-script/ChangeActivity.sh 0
+GenericName[an_ES]=
+GenericName=
+GenericName[en_US]=
+Icon=view-web-browser-dom-tree
+MimeType=
+Name[an_ES]=A1-Chill
+Name=A1-Chill
+Name[en_US]=AHome
+Path=
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=
