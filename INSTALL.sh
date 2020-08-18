@@ -9,7 +9,8 @@
     \cp -r themes/color-profiles ~/.local/share/color-schemes
     \cp -r themes/gtk-whitesur-themes ~/.themes
     mkdir ~/.local/share/aurorae
-    \cp -r themes/aurorae ~/.local/share/aurorae
+    mkdir ~/.local/share/aurorae/themes
+    \cp -r themes/aurorae/. ~/.local/share/aurorae/themes
 
     echo "4 - Copying .desktop files as well as icons..."
     sudo \cp -r icons/* /usr/share/pixmaps
