@@ -3,8 +3,8 @@
     mkdir ~/.local/share/wallpapers
     \cp -r wallpapers ~/.local/share/wallpapers
     echo "2 - Copying over fonts (system-wide)..."
-    sudo \cp -r fonts/fira-sans /usr/share/fonts
-    sudo \cp -r fonts/fira-sans-code /usr/share/fonts
+    sudo \cp -r fonts/. /usr/share/fonts
+    #sudo \cp -r fonts/fira-sans-code /usr/share/fonts
     echo "3 - Copying over color schemes, GTK themes and aurorae..."
     \cp -r themes/color-profiles ~/.local/share/color-schemes
     \cp -r themes/gtk-whitesur-themes ~/.themes

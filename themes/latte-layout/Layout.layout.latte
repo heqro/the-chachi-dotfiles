@@ -83,7 +83,8 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][14][Applets][154][Configuration]
-localPath=/home/heqro/.local/share/plasma_icons/A3-Studying (1).desktop
+PreloadWeight=42
+localPath=/home/heqro/.local/share/plasma_icons/A3-Studying.desktop
 url=file:///home/heqro/.local/share/heqro-kde-scripting/activity-changing/A3-Studying.desktop
 
 [Containments][14][Applets][155]
@@ -91,7 +92,8 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][14][Applets][155][Configuration]
-localPath=/home/heqro/.local/share/plasma_icons/A4-Music (1).desktop
+PreloadWeight=42
+localPath=/home/heqro/.local/share/plasma_icons/A4-Music.desktop
 url=file:///home/heqro/.local/share/heqro-kde-scripting/activity-changing/A4-Music.desktop
 
 [Containments][14][Applets][63]
@@ -143,7 +145,7 @@ PreloadWeight=0
 addLaunchersInTaskManager=false
 advanced=false
 animationNewWindowSliding=false
-appletOrder=142;141;154;155;140;139;138;63;121;82
+appletOrder=142;141;154;155;138;63;121;82
 blurEnabled=false
 configurationSticker=true
 durationTime=x3
@@ -162,8 +164,8 @@ shadowOpacity=100
 shadowSize=100
 showGlow=false
 solidBackgroundForMaximized=true
-splitterPosition=7
-splitterPosition2=9
+splitterPosition=5
+splitterPosition2=7
 themeColors=SmartThemeColors
 titleTooltips=false
 windowColors=TouchingWindowColors
@@ -202,7 +204,7 @@ immutability=1
 plugin=org.kde.plasma.virtualdesktopbar
 
 [Containments][15][Applets][149][Configuration]
-PreloadWeight=10
+PreloadWeight=2
 
 [Containments][15][Applets][149][Configuration][ConfigDialog]
 DialogHeight=540
@@ -229,15 +231,27 @@ DialogWidth=720
 lengthMargin=50
 thickMargin=8
 
+[Containments][15][Applets][156]
+immutability=1
+plugin=org.kde.latte.separator
+
+[Containments][15][Applets][156][Configuration]
+PreloadWeight=42
+
+[Containments][15][Applets][156][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][15][Applets][156][Configuration][General]
+lengthMargin=30
+thickMargin=9
+
 [Containments][15][Applets][71]
 immutability=1
 plugin=org.kde.plasma.appmenu
 
 [Containments][15][Applets][71][Configuration]
 PreloadWeight=0
-
-[Containments][15][Applets][71][Configuration][Appearance]
-compactView=true
 
 [Containments][15][Applets][71][Configuration][ConfigDialog]
 DialogHeight=540
@@ -272,7 +286,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][15][Applets][84][Configuration]
-PreloadWeight=85
+PreloadWeight=77
 SystrayContainmentId=85
 
 [Containments][15][ConfigDialog]
@@ -286,7 +300,7 @@ PreloadWeight=0
 animationLauncherBouncing=false
 animationWindowAddedInGroup=false
 animationWindowInAttention=false
-appletOrder=71;77;152;149;84
+appletOrder=71;77;156;149;84;152
 blurEnabled=false
 dragActiveWindowEnabled=true
 iconSize=16
@@ -401,12 +415,9 @@ location=3
 plugin=org.kde.plasma.private.systemtray
 wallpaperplugin=org.kde.image
 
-[Containments][85][Applets][153]
+[Containments][85][Applets][157]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
-
-[Containments][85][Applets][153][Configuration]
-PreloadWeight=60
 
 [Containments][85][Applets][86]
 immutability=1
@@ -430,7 +441,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][85][Applets][88][Configuration]
-PreloadWeight=22
+PreloadWeight=14
 
 [Containments][85][Applets][89]
 immutability=1
@@ -458,7 +469,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][85][Applets][92][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][85][Applets][94]
 immutability=1
