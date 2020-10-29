@@ -1,0 +1,22 @@
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Comment[an_ES]=
+Exec=~/.local/share/heqro-kde-scripting/activity-changing/ChangeActivity.sh 5
+GenericName[en_US]=
+GenericName=
+GenericName[an_ES]=
+Icon=heqro-boligrafo.png
+MimeType=
+Name[en_US]=A3-Subject4
+Name=A3-Subject4
+Name[an_ES]=A3-Studying
+Path=
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=

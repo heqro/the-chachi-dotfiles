@@ -53,13 +53,20 @@
     echo "9 - Exporting plasmoids"
     mkdir ~/.local/share/plasma
     mkdir ~/.local/share/plasma/plasmoids
-    \cp -r themes/plasmoids/. ~/.local/share/plasma/plasmoids
+    # \cp -r themes/plasmoids/. ~/.local/share/plasma/plasmoids
     
     tar -xf themes/plasmoids/com.github.zren.tiledmenu.tar.gz -C ~/.local/share/plasma/plasmoids
     
     tar -xf themes/plasmoids/org.kde.plasma.eventcalendar.tar.gz -C ~/.local/share/plasma/plasmoids
     
+    tar -xf themes/plasmoids/org.kde.plasma.private.systemtray.tar.gz -C ~/.local/share/plasma/plasmoids
+    
+    tar -xf themes/plasmoids/org.kde.plasma.systemtray.tar.gz -C ~/.local/share/plasma/plasmoids
     
     echo "10 - Exporting look-and-feel"
     mkdir ~/.local/share/plasma/look-and-feel
     \cp -r themes/look-and-feel ~/.local/share/plasma/
+    
+    echo "11 - Applying icon theme"
+    /usr/lib/plasma-changeicons Papirus
+

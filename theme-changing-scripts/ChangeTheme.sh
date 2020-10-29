@@ -16,6 +16,8 @@ then
     lookandfeeltool -a 'heqroLight'
     # copying over GTK configuration files
     \cp ~/.local/share/heqro-kde-scripting/theme-changing-scripts/DaySettings/settings.ini ~/.config/gtk-3.0
+    # change icon pack to Papirus
+    # /usr/lib/plasma-changeicons Papirus
     # change terminal profile
         #konsoleprofile colors=BreezeLight
 fi
